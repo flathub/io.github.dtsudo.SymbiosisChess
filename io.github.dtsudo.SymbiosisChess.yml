@@ -45,4 +45,4 @@ modules:
       - type: script
         dest-filename: run.sh
         commands:
-          - zypak-wrapper.sh /app/main/symbiosis-chess --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto "$@"
+          - zypak-wrapper.sh /app/main/symbiosis-chess --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto --disable-gpu "$@"
